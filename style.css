@@ -7,7 +7,7 @@
 
 
 body {
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif ;
     background: white;
     
     
@@ -16,76 +16,85 @@ body {
 }
 
 main {
-    background: rgb(244, 240, 240) ;
-    border: 10px solid yellow;
+    background: white;
     width: 85%;
     height: 200px;
-    margin: 10px auto;
+    margin: auto;
     padding: 0;
     display: flex;
 
 }
 
 .logo {
-    background: purple;
+    ;
     width: 20%;
-    
-        display: flex;
-        flex-direction: row;       
-        justify-content: space-around;
-        text-align: center;
-        align-items: center;
-        align-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;       
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    align-content: center;
     
 }
 
 .headbloc {
-    background: red;
+    background: white;
+    color: #111b3b;
     width: 80%;
+    margin: 0;
+    padding: 0;
     height: auto;    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    margin: 0;
+    
     
 }
 
 
 #blocun {
     
-    background: blue;
-   
+    background: white;
+    color: #111b3b;
     top: 50%;
     left: 20px;
     width: 25%;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
-    
+      
 
 }
 
 #blocdeux {
-    background: orange;
-    padding: 10px;
+    background: white;
+    color: #111b3b;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
     width: 25%;
     list-style-type: none;
     text-align: center;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #bloctrois {
-    background: pink;
-    padding: 10px;
+    background: white;
+    color: #111b3b;
+    font-size: x-large;
+    padding: 0;
+    margin: 0;
     width: 25%;
     list-style-type: none;
     text-align: center;
@@ -93,4 +102,51 @@ main {
     align-items: center;
     justify-content: center;
     
+}
+
+ul {
+    background: rgb(154, 240, 24);
+    height: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+
+}
+
+li {
+    display: flex;
+    justify-content: space-around;
+    color: #111b3b;
+    font-size: x-large;
+    margin: 0;
+    width: 190px;
+    
+}
+
+.sectionune {
+    background: pink;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sectionunhun {
+    background: red;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#paragrapheun {
+    background: purple;
+    
+    padding: 0px 0px 10px 0px;
+
 }

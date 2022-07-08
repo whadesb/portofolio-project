@@ -26,14 +26,13 @@ main {
 }
 
 .logo {
-    ;
-    width: 20%;
+    
+    
     display: flex;
-    margin: 0;
+    margin: auto;
     padding: 0;
     flex-direction: row;       
     justify-content: space-around;
-    text-align: center;
     align-items: center;
     align-content: center;
     
@@ -43,7 +42,7 @@ main {
     background: white;
     color: #111b3b;
     width: 80%;
-    margin: 0;
+    margin: auto;
     padding: 0;
     height: auto;    
     display: flex;
@@ -63,7 +62,7 @@ main {
     top: 50%;
     left: 20px;
     width: 25%;
-    margin: 0;
+    margin: auto;
     padding: 0;
     list-style-type: none;
     text-align: center;
@@ -77,9 +76,9 @@ main {
 #blocdeux {
     background: white;
     color: #111b3b;
-    font-size: xx-large;
+    font-size: 1.8em;
     font-weight: bold;
-    margin: 0;
+    margin: auto;
     padding: 0;
     width: 25%;
     list-style-type: none;
@@ -92,9 +91,10 @@ main {
 #bloctrois {
     background: white;
     color: #111b3b;
-    font-size: x-large;
+    font-size: 1.8em;
+    font-weight: bold;
     padding: 0;
-    margin: 0;
+    margin: auto;
     width: 25%;
     list-style-type: none;
     text-align: center;
@@ -105,8 +105,10 @@ main {
 }
 
 ul {
-    background: rgb(154, 240, 24);
-    height: 100px;
+    background: rgb(170, 0, 71);
+    height: 70px;
+   
+    width: auto;
     padding-left: 70px;
     padding-right: 70px;
     display: flex;
@@ -121,32 +123,75 @@ ul {
 li {
     display: flex;
     justify-content: space-around;
-    color: #111b3b;
+    color: white;
     font-size: x-large;
     margin: 0;
     width: 190px;
     
 }
 
+.bloquesectun {
+    background: white;
+    margin-top: 50px;
+    display: flex;
+    
+
+}
+
 .sectionune {
-    background: pink;
+    background: white;
+    color: #111b3b;
     width: 50%;
     margin-left: 10%;
-    margin-top: 20px;
+    
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
 
 #sectionunhun {
-    background: red;   
-    margin-top: 10px;
+    background: white;   
+    color: #111b3b;
     margin-bottom: 10px;
 }
 
 #paragrapheun {
-    background: purple;
+    background: white;
+    color: #111b3b;
     
     padding: 0px 0px 10px 0px;
 
+}
+
+#logohtmlcss {
+    
+    display: flex;
+    justify-content: space-around;  
+    margin: auto; 
+}
+
+
+
+footer {
+    background: #111b3b;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}
+
+#liens {
+    color: white;
+    font-weight: bold;
+}
+
+#contacts {
+    color: white;
+    font-weight: bold;
+}
+
+#suiveznous {
+    color: white;
+    font-weight: bold;
 }
